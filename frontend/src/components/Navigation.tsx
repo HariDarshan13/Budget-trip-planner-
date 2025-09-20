@@ -3,7 +3,7 @@ import { Link, useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
 import { Map } from "lucide-react";
 
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://budget-trip-planner-backend.onrender.com";
 
 export default function Navigation() {
   const [user, setUser] = useState<any>(null);
